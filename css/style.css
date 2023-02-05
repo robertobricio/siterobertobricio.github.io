@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.icone {
+    width: 50px;
+    margin-right: 1397px;
+}
+
+
+.header {
+    background-image: url(http://www.agenciatipo.com.br/img/palavras-chave/como-divulgar-meu-servico-na-internet.jpg);
+    text-align: center;
+    padding: 105px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Patrick Hand', cursive;
+}
+
+.nome-principal {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.social img{
+    width: 30px;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar {
+    width: 30%;
+    background-color: rgba(5, 2, 51, 1);
+    padding: 30px;
+}
+
+.navbar ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    color: #7e51c7;
+    border-radius: 80px 10px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #6f00ff;
+}
+
+.content {
+    width: 70%;
+    background-color: rgba(60, 26, 235, 0.884);
+    padding: 30px;
+}
+
+.content h1 {
+    color: rgba(5, 2, 51, 1);
+    font-family: 'Architects Daughter';
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.content p {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.footer{
+    color: white;
+    background-color: rgb(58, 5, 252);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 5, 252);
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+}
